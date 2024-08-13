@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px; /* Increased padding for a better look */
+  background-color: #000; /* Darker navy background */
+  color: #ecf0f1; /* Light grey text color */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.header:hover {
+  background-color: #4f4f4f; /* Slightly lighter shade on hover */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px; /* Slightly larger logo */
+  height: auto;
+  margin-right: 15px;
+}
+
+.site-name {
+  font-family: 'Courier New', Courier, monospace; /* Change the font family */
+  font-size: 2rem; /* Adjust the font size */
+  font-weight: bold; /* Make it bold */
+  color: #ecf0f1; /* Light grey color */
+  text-transform: uppercase; /* Uppercase text */
+  margin: 0; /* Remove default margin */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px; /* Increased spacing between items */
+}
+
+nav ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold; /* Bold text for better readability */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+nav ul li a:hover {
+  color: #000000; /* Teal color on hover */
+  text-decoration:solid;
+}

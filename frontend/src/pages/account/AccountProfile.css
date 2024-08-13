@@ -1,0 +1,25 @@
+.profile-container {
+  max-width: 800px; /* Increased max-width */
+  margin: 0 auto;
+  padding: 40px; /* Increased padding */
+  border: 2px solid #ccc; /* Increased border width */
+  border-radius: 10px; /* Increased border radius */
+  background-color: #ffffff; /* Changed background color to white */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow for better visual appeal */
+}
+
+.profile-details {
+  margin-top: 30px; /* Increased margin-top */
+  font-size: 18px; /* Increased font size */
+  line-height: 1.6; /* Adjusted line height for better readability */
+}
+
+.profile-details p {
+  margin: 15px 0; /* Increased margin */
+}
+
+.profile-details strong {
+  display: inline-block;
+  width: 200px; /* Increased width */
+  font-weight: bold; /* Added bold font weight for better emphasis */
+}
